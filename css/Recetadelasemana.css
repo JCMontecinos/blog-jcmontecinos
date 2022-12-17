@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+.contact-content a {
+    border-color: transparent;
+    border-radius: .375rem;
+    border-width: 1px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    background-color: rgba(75, 85, 99, var(--tw-bg-opacity));
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+}
+.tarta-limon {
+    text-align: center;
+
+}
+body header {
+    background-image: url("../img/tartadelimon2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+    padding: 15%;
+}
